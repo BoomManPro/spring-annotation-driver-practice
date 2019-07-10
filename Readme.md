@@ -32,7 +32,7 @@
 
 8） 遍历调用所有SpringApplicationRunListener的contextPrepared()方法。
 
-9） 最核心的一步，将之前通过@EnableAutoConfiguration获取的所有配置以及其他形式的IoC容器配置加载到已经准备完毕的ApplicationContext。
+9） 最核心的一步，将之前通过@EnableAutoConfiguration获取的所有配置及其他形式的IoC容器配置加载到已经准备完毕的ApplicationContext。
 
 10） 遍历调用所有SpringApplicationRunListener的contextLoaded()方法。
 
@@ -40,4 +40,9 @@
 
 12） 查找当前ApplicationContext中是否注册有CommandLineRunner，如果有，则遍历执行它们。
 
-13） 正常情况下，遍历执行SpringApplicationRunListener的finished()方法、（如果整个过程出现异常，则依然调用所有SpringApplicationRunListener的finished()方法，只不过这种情况下会将异常信息一并传入处理）
+13） 正常情况下，遍历执行SpringApplicationRunListener的running()方法、（如果以整个过程出现异常，则依然调用所有SpringApplicationRunListener的finished()方法，只不过这种情况下会将异常信息一并传入处理）
+
+
+
+
+[【死磕 Spring】—– 深入分析 ApplicationContext 的 refresh()](http://cmsblogs.com/?p=4043)
