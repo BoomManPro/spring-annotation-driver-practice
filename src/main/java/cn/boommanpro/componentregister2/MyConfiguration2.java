@@ -1,4 +1,4 @@
-package cn.boommanpro.componentregistrer2;
+package cn.boommanpro.componentregister2;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @created by BoomManPro
  */
 @Configuration
-@ComponentScan(basePackages = "cn.boommanpro.componentregistrer2")
+@ComponentScan(basePackages = "cn.boommanpro.componentregister2")
 public class MyConfiguration2 {
 
 }

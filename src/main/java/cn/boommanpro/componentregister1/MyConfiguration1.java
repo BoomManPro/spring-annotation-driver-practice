@@ -1,4 +1,4 @@
-package cn.boommanpro.componentregistrer1;
+package cn.boommanpro.componentregister1;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

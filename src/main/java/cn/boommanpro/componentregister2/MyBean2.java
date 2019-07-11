@@ -1,4 +1,4 @@
-package cn.boommanpro.componentregistrer2;
+package cn.boommanpro.componentregister2;
 
 import org.springframework.stereotype.Component;
 
