@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @date 2019/7/11 18:32
  * @created by boommanpro
  */
-public class ComponentRegister2Test {
+public class ComponentRegister3Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MyConfiguration3.class);
         String[] beanDefinitionNames = annotationConfigApplicationContext.getBeanDefinitionNames();
