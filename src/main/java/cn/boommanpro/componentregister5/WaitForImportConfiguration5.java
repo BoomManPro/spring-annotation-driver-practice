@@ -10,6 +10,11 @@ import org.springframework.core.type.AnnotationMetadata;
  * @created by boommanpro
  */
 public class WaitForImportConfiguration5 implements ImportSelector {
+    /**
+     * 这个Bean不会创建 虽然IDEA 左边有标识
+     *
+     * 一般使用方式? {@link org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector}
+     */
     @Bean
     public String string(){
         return "";

@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Bean;
  * @created by boommanpro
  */
 public class WaitForImportConfiguration4 {
+    /**
+     * Bean 会创建  IDEA也会显示
+     */
     @Bean
     public String string(){
         return "";
