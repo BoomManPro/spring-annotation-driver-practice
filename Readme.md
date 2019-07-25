@@ -46,3 +46,8 @@
 
 
 [【死磕 Spring】—– 深入分析 ApplicationContext 的 refresh()](http://cmsblogs.com/?p=4043)
+
+
+Spring 扩展原理
+
+BeanFactoryPostProcessor
