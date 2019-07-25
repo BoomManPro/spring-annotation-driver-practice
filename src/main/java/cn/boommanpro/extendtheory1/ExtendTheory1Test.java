@@ -14,5 +14,8 @@ public class ExtendTheory1Test {
         for (String beanDefinitionName : applicationContext.getBeanDefinitionNames()) {
             System.out.println(beanDefinitionName);
         }
+
+        MyTheory1Component bean = applicationContext.getBean(MyTheory1Component.class);
+        System.out.println(bean);
     }
 }

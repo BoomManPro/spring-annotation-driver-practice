@@ -1,5 +1,6 @@
 package cn.boommanpro.extendtheory1;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,4 +12,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("cn.boommanpro.extendtheory1")
 public class ExtendConfig1 {
+    @Bean(initMethod = "initMethod",destroyMethod = "destroyMethod")
+    public MyTheory1Component myTheory1Component() {
+        return new MyTheory1Component();
+    }
 }
