@@ -12,7 +12,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * interface ImportBeanDefinitionRegistrar example {@link cn.boommanpro.componentregister6.ComponentRegister6Test}
  * interface FactoryBean example {@link cn.boommanpro.componentregister7.ComponentRegister7Test}
  *
- * @author <a href="mailto:boommanpro@mininglamp.com">BoomManPro</a>
+ * @author <a href="mailto:boommanpro@gmail.com">BoomManPro</a>
  * @date 2019/7/10 14:54
  * @created by BoomManPro
  */

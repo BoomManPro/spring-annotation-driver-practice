@@ -3,7 +3,7 @@ package cn.boommanpro.componentregister2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author <a href="mailto:boommanpro@mininglamp.com">BoomManPro</a>
+ * @author <a href="mailto:boommanpro@gmail.com">BoomManPro</a>
  * @date 2019/7/11 15:20
  * @created by BoomManPro
  */

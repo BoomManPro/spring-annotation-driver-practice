@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * 组件注册 {@link Bean} 类比之前 <Bean id=""></Bean>
  *
  * Configuration 类比 之前的
- * @author <a href="mailto:boommanpro@mininglamp.com">BoomManPro</a>
+ * @author <a href="mailto:boommanpro@gmail.com">BoomManPro</a>
  * @date 2019/7/10 14:58
  * @created by BoomManPro
  */
